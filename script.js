@@ -38,7 +38,7 @@ function addLead(){
     leadList.innerHTML = "";
     for(let i = 0; i < myLeads.length; i++){
         let lead = document.createElement("li");
-        lead.innerHTML = `<a href="${myLeads[i]}>${myLeads[i]}</a>`;
+        lead.innerHTML = `<a href="${myLeads[i]}">${myLeads[i]}</a>`;
         leadList.appendChild(lead);
     }
 }
